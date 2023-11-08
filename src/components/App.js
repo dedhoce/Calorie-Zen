@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {BrowserRouter, Route, Routes, Navigate, useNavigate} from 'react-router-dom';
+import { Route, Routes, Navigate, useNavigate } from 'react-router-dom';
 import Header from './Header';
 import Diary from './Diary';
 import Tips from './Tips';
@@ -55,6 +55,7 @@ const App = () => {
           <Route path="/tips" element={<ProtectedRouteElement element={Tips} loggedIn={loggedIn}/>} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login handleLogin={handleLogin} />} />
+          <Route path='*' element={<Navigate to="/" replace />} />
         </Routes>
       </main>
     </>
