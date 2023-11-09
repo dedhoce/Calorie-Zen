@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dedhoce/Calorie-Zen/static/css/main.ea5be9d6.css",
+    "main.js": "/dedhoce/Calorie-Zen/static/js/main.201b6ad6.js",
+    "static/media/sumana.woff": "/dedhoce/Calorie-Zen/static/media/sumana.9597fc34422e3ca4f27b.woff",
+    "static/media/roboto.woff": "/dedhoce/Calorie-Zen/static/media/roboto.59d18e163bfcd0607572.woff",
+    "index.html": "/dedhoce/Calorie-Zen/index.html",
+    "main.ea5be9d6.css.map": "/dedhoce/Calorie-Zen/static/css/main.ea5be9d6.css.map",
+    "main.201b6ad6.js.map": "/dedhoce/Calorie-Zen/static/js/main.201b6ad6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea5be9d6.css",
+    "static/js/main.201b6ad6.js"
+  ]
+}
